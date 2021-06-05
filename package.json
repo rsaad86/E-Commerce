@@ -12,13 +12,16 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node Develop/seeds/index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rsaad86/E-Commerce.git"
   },
-  "author": "",
+  "author": "RSAAD",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/rsaad86/E-Commerce/issues"
